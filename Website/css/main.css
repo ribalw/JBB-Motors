@@ -1,0 +1,313 @@
+/*JBB MOTORS*/
+
+
+/*BODY*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+
+/*NAVBAR*/
+
+nav {
+    z-index: 1;
+    border-bottom: 0.1px solid #bbb;
+    height: 135px;
+}
+
+#logo img {
+    width: 180px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+.nav-link {
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: rgb(255, 255, 255) !important;
+}
+
+#nav-search {
+    padding-left: 400px;
+}
+
+.nav-link .i {
+    color: rgb(78, 215, 24);
+    font-size: 23px;
+}
+
+
+/*For Active Page*/
+
+.navbar-nav .active {
+    border-top: 3px solid #D71821;
+    margin-top: -3px;
+    color: #D71821 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    transition: .2s;
+    margin-top: -3px;
+    border-top: 3px solid #D71821;
+    color: #D71821 !important;
+}
+
+.navbar-nav .nav-link .search-bar {
+    margin-top: -3px;
+    border-top: 3px solid #D71821;
+    color: #D71821 !important;
+}
+
+
+/* NAVBAR FINISHED*/
+
+
+/*BANNER*/
+
+.side img {
+    width: 150%;
+    margin-left: -50px;
+    height: 100%;
+}
+
+.effect2 {
+    position: relative;
+}
+
+
+/* Slide Show*/
+
+.effect2:before,
+.effect2:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #000;
+    -webkit-box-shadow: 0 15px 10px rgb(255, 0, 0);
+    -moz-box-shadow: 0 15px 10px rgb(255, 0, 0);
+    box-shadow: 0 15px 10px rgb(255, 0, 0);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+.effect2:after {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+
+.banner {
+    padding-bottom: 25px;
+    z-index: -1;
+}
+
+.banner .carousel {
+    z-index: -1;
+}
+
+
+/*END BANNER*/
+
+
+/*About Us*/
+
+#about-us img {
+    width: 500px;
+    height: 70%;
+}
+
+
+/*About us Finish*/
+
+
+/*Brand Logo*/
+
+#our-brand img {
+    border-radius: 50%;
+}
+
+
+/*end brand logo*/
+
+
+/*Featured Cars*/
+
+.featured-outer {
+    width: 95%;
+}
+
+h2 {
+    border: 1px solid red;
+    color: #D71821;
+    padding-left: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*owl theme styling*/
+
+.owl-theme img {
+    padding-bottom: 8px;
+}
+
+.owl-theme span {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.owl-theme img:hover {
+    transform: scale(1.1);
+    transition: .6s;
+}
+
+
+/*Product Tittle Styling */
+
+.item {
+    overflow: hidden;
+}
+
+.letter {
+    padding-left: 40px;
+    height: 88px;
+    line-height: 88px;
+    background-color: #D71821;
+    color: #fff;
+}
+
+.letter p {
+    font-size: 30px;
+}
+
+.letter span {
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+
+/*Product Tittle Styling Finished */
+
+
+/*Featured Cars*/
+
+
+/*My Account */
+
+
+/*Login Styling */
+
+#collapseOne {
+    color: black;
+    background-color: red;
+}
+
+#collapseOne input {
+    color: black;
+    border: solid 1px black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*Shipping Styling */
+
+#shipping-tab,
+#payment-tab {
+    background-color: rgb(212, 0, 11);
+}
+
+#myTab1 {
+    color: rgb(212, 0, 11);
+}
+
+#myTabContent button input {
+    color: black;
+    border: solid 1px black;
+}
+
+#myTabContent {
+    background-color: rgb(212, 0, 11);
+    color: black;
+}
+
+
+/*My Account Finsished*/
+
+
+/*Footer styling*/
+
+footer {
+    background-color: rgb(212, 0, 11);
+    padding-top: 30px;
+}
+
+
+/*Logo and Intro Styling */
+
+#f-logo img {
+    border-radius: 50%;
+}
+
+footer .footer-body {
+    padding-bottom: 28px;
+}
+
+
+/*Footer content Styling */
+
+footer .footer-end {
+    padding-top: 18px;
+    height: 60px;
+    color: #fff;
+    background-color: rgb(65, 60, 60);
+}
+
+.useful-link .link-item {
+    list-style-type: none;
+}
+
+.useful-link ul {
+    margin-left: -37px;
+}
+
+.useful-link .link {
+    text-decoration: none;
+    color: #242424 !important;
+}
+
+.fa-chevron-right {
+    color: #555 !important;
+    font-size: 12px;
+}
+
+
+/*cONTACT US styling */
+
+.contact-mailing a {
+    display: block;
+    padding-top: 7px !important;
+}
+
+.contact-mailing a img {
+    width: 50px;
+}
+
+
+/*end Footer styling*/
