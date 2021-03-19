@@ -1,0 +1,44 @@
+    
+/*body styling */
+    #signin,
+    body{
+        background-color: #d71821;
+    }
+    /*register styling */
+    #register {
+        background-color: black;
+        font-family: sans-serif;
+    }
+    
+    #signin>#mainbody {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /*main styling */
+    #mainbody {
+        background-color: #d71821;
+        margin: 100px;
+        border-radius: 5px;
+    }
+    
+    #mainbody>div {
+        margin: 10px;
+    }
+    /*signin styling */
+    #signin>#mainbody>#leftpanel {
+        text-align: center;
+        line-height: 400px;
+        margin-top: 10px;
+    }
+    /*forms styling */
+    form {
+        margin-top: 50px;
+        padding-bottom: 10px;
+    }
+    
+    #title {
+        text-align: center;
+        font-weight: bold;
+        padding-top: 10px;
+        font-size: 50px;
+    }
